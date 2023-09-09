@@ -40,6 +40,7 @@
   width: 23%;
   margin-top: 64px;
   list-style-type: none;
+  background-color: red;
 }
 .container ul li:first-child img {
   width: 196px;
@@ -65,7 +66,7 @@
   border: 1px solid #3a3c56;
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: ;
 }
 .container ul li p {
   margin-top: 26px;

@@ -59,7 +59,7 @@
 }
 .container ul li {
   padding: 41px 50px 43px 50px;
-  width: 570px;
+    width: 570px;
   border: 1px solid #f3d1bf;
   list-style-type: none;
 }
@@ -96,7 +96,7 @@
   font-weight: 700;
   line-height: 32px;
 }
-.container ul li .collaj {
+.container ul li .collaj{
   display: flex;
   justify-content: space-between;
 }

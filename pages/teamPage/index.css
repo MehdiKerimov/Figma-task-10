@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.container {
+  padding: 140px 135px 180px 135px;
+  min-height: 100vh;
+  background: #28293e;
+}
+.container .text-box h1 {
+  color: var(--Text_Light_Accent, #ef6d58);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.container .text-box h2 {
+  margin-top: 20px;
+  width: 531px;
+  color: var(--Text_Light, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: -1px;
+}
+.container ul {
+  display: flex;
+  justify-content: space-between;
+}
+.container ul li {
+  margin-top: 64px;
+  list-style-type: none;
+}
+.container ul li img {
+  width: 196px;
+  height: 247px;
+}
+.container ul li p {
+  margin-top: 26px;
+  color: var(--Text_Light, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+.container ul li a {
+  text-decoration: none;
+  color: var(--Text_Light_Gray, rgba(255, 255, 255, 0.64));
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
